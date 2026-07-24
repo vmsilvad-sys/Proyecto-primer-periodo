@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenido - Silva Diaz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="logo-unein.png" alt="Logo de la institución">
+      <h1>El funcionamiento y la eficiencia de las celdas de combustible</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#investigacion">Investigación</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#fuentes-contenido">Fuentes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>El funcionamiento y la eficiencia de las celdas de combustible de hidrógeno en el transporte limpio.</h2>
+      <p>
+El funcionamiento y la eficiencia de las celdas de
+combustible de hidrógeno en el transporte limpio.
+      </p>
+      <button onclick="volverInicio()">Volver a la página principal</button>
+    </section>
+
+    <section id="investigacion">
+      <h2>Investigación del tema</h2>
+      <p>
+  Las celdas de combustible de hidrógeno funcionan mediante una reacción electroquímica que transforma la energía química del hidrógeno en electricidad. Esta electricidad permite mover vehículos eléctricos de hidrógeno.
+ Su eficiencia se debe a que aprovechan directamente la energía del hidrógeno y, durante su funcionamiento, producen principalmente agua y calor. Por esta razón, son una alternativa más limpia y sostenible para el transporte,
+ ya que ayudan a reducir la contaminación y el uso de combustibles fósiles.
+      </p>
+
+      <div class="science-image">
+        <h3>Imagen del tema</h3>
+        <img src="proceso.png" class="image-20" alt="Imagen relacionada con el tema seleccionado">
+        <p><strong>Punto adicional:</strong> esta imagen está centrada y configurada al 20% del ancho.</p>
+      </div>
+    </section>
+
+    <section id="preguntas">
+      <h2>Preguntas generales del contenido</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Pregunta 1</h3>
+          <p><strong>¿Qué son las celdas de combustible de hidrógeno y cómo funcionan?</strong></p>
+          <button onclick="mostrarRespuesta('respuesta1')">Mostrar respuesta</button>
+          <div id="respuesta1" class="answer">
+          Las celdas de combustible de hidrógeno son dispositivos que convierten la energía química del hidrógeno en electricidad mediante una reacción electroquímica. El hidrógeno se combina con el oxígeno y produce electricidad para mover el vehículo.
+          Como resultado, se genera principalmente agua y calor, por lo que es una tecnología más limpia para el transporte.
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Pregunta 2</h3>
+          <p><strong>¿Por qué es importante y en qué situaciones se aplica?</strong></p>
+          <button onclick="mostrarRespuesta('respuesta2')">Mostrar respuesta</button>
+          <div id="respuesta2" class="answer">
+            Es importante porque las celdas de combustible de hidrógeno pueden producir electricidad de una manera más limpia y ayudar a reducir la contaminación del transporte. Se aplican principalmente en vehículos 
+            como automóviles, autobuses, camiones y otros medios de transporte que utilizan hidrógeno como fuente de energía.
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Pregunta 3</h3>
+          <p><strong>¿Cómo se relaciona este tema con la Física y la Química?</strong></p>
+          <button onclick="mostrarRespuesta('respuesta3')">Mostrar respuesta</button>
+          <div id="respuesta3" class="answer">
+           Este tema se relaciona con la Física porque estudia la transformación de la energía química en energía eléctrica y el movimiento de los vehículos. También se relaciona con la Química 
+           porque las celdas de combustible funcionan mediante una reacción electroquímica entre el hidrógeno y el oxígeno.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fuentes-contenido">
+      <h2>Fuentes consultadas para contenido.html</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tema</th>
+            <th>Autor</th>
+            <th>fecha</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Future of Hydrogen.</td>
+            <td>International Energy Agency </td>
+            <td>2019</td>
+            <td><a href="#" target="_blank">https://www.iea.org/reports/the-future-of-hydrogen</a></td>
+          </tr>
+          <tr>
+            <td>Hydrogen and Fuel Cell Technologies Office.</td>
+            <td>U.S Department of Energy</td>
+            <td>2024</td>
+            <td><a href="#" target="_blank">https://www.energy.gov/eere/fuelcells</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Interdisciplinario de Programación, Física y Química | Página de contenido</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
