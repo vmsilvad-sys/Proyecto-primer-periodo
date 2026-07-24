@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PI - MATHIAS SILVA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="logo-unein.png" alt="Logo de la institución">
+      <h1>PI - SILVA DIAZ</h1>
+    </div>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#conexion">Física + Química</a>
+      <a href="#fuentes">Fuentes</a>
+      <a href="#concepto">Concepto</a>
+      <a href="#reflexion">Reflexión</a>
+      <a href="contenido.html">Contenido</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h2>El funcionamiento y la eficiencia de las celdas de
+combustible de hidrógeno en el transporte limpio.</h2>
+
+      <p>
+        Esta página principal presenta el tema elegido y conecta con una segunda página
+        llamada contenido.html, donde se amplía la información investigada.
+      </p>
+
+      <div class="question">
+        <strong>Pregunta guía:</strong>
+        ¿Cómo se transforma la energía de los enlaces químicos del
+hidrógeno en energía eléctrica útil para mover un vehículo sin contaminar el medio
+ambiente?
+      </div>
+
+      <button onclick="irAContenido()">Ir a la página de contenido</button>
+    </section>
+
+    <section id="conexion">
+      <h2>Conexión entre Física y Química</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Idea de Física</h3>
+          <p>
+La termodinámica del proceso (la eficiencia en la conversión de
+energía química a eléctrica) y la generación de corriente eléctrica (flujo de
+electrones) que alimenta el motor del vehículo.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Idea de Química</h3>
+          <p>
+Las reacciones de óxido-reducción (redox) que ocurren dentro de
+la celda, donde el hidrógeno se oxida en el ánodo y el oxígeno se reduce en el
+cátodo para formar agua (H2O) como único residuo.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Conexión entre ambas materias</h3>
+          <p>
+La Química explica cómo se liberan los
+electrones a través de la ruptura y formación de enlaces en la reacción redox,
+mientras que la Física explica cómo el movimiento de esos mismos electrones
+genera una diferencia de potencial (voltaje) y una corriente eléctrica utilizable.
+          </p>
+        </div>
+      </div>
+
+      <div class="science-image">
+        <h3>Imagen explicativa del fenómeno</h3>
+        <img src="proceso.png" class="image-20" alt="Imagen relacionada con el tema seleccionado">
+      </div>
+    </section>
+
+    <section id="fuentes">
+      <h2>Fuentes consultadas</h2>
+      <p>
+        Las fuentes deben ser académicas, educativas o institucionales.
+        No se debe escribir únicamente “Google” o “internet”.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tema</th>
+            <th>Autor</th>
+            <th>fecha</th>
+            <th>fuente consultada</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Analistas globales de tecnología</td>
+            <td>Expert Market Research.</td>
+            <td>2026.</td>
+            <td><a href="#" target="_blank">https://www.expertmarketresearch.com/featured-articles/hydrogen-fuel-cell-
+sustainable-transportation</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="concepto">
+      <h2>Palabra científica obligatoria</h2>
+
+      <div class="keyword">
+        <strong>Electroquímica (o Eficiencia Termodinámica).:</strong>
+        La electroquímica es fundamental en las celdas de combustible de hidrógeno porque permite transformar 
+        la energía química del hidrógeno en electricidad mediante una reacción electroquímica. 
+        Su eficiencia determina qué cantidad de esa energía se convierte
+        en electricidad útil para mover vehículos, contribuyendo al desarrollo de un transporte más limpio.
+      </div>
+
+      <button onclick="mostrarExplicacion()">Mostrar explicación sencilla</button>
+
+      <div id="extra-info" class="answer">
+        <p>
+  La electroquímica estudia cómo una reacción química puede producir electricidad. En las celdas de combustible
+  de hidrógeno, esta reacción transforma la energía del hidrógeno en electricidad paramover vehículos,generando 
+  principalmente agua. Por eso, son una alternativa eficiente y más limpia para el transporte
+        </p>
+      </div>
+    </section>
+
+    <section id="reflexion">
+      <h2>Decisión personal y dificultad presentada</h2>
+
+      <div class="reflection">
+        <div class="card">
+          <h3>Decisión personal tomada</h3>
+          <p>
+Decidí enfocarme en el hidrógeno porque es una tecnología clave 
+para la transición energética actual y me interesa el desarrollo de
+software aplicado a la sustentabilidad.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Dificultad o duda surgida</h3>
+          <p>
+Me cuesta un poco entender cómo calcular la pérdida
+de energía en forma de calor durante la reacción; investigaré más sobre la segunda
+ley de la termodinámica para aclararlo antes de programar la web.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Interdisciplinario de Programación, Física y Química | 2do BGU</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
